@@ -31,3 +31,34 @@ print('---')
 bicycle.remove('a')
 print(bicycle)
 print('---')
+
+#use sort in bicycle
+bicycle=['r', 'a', 'd']
+bicycle.sort()
+print(bicycle)
+print('---')
+
+#reverse sort
+bicycle.sort(reverse=True)
+print(bicycle)
+print('---')
+
+#use 'sorted' function
+bicycle=['r', 'a', 'd']
+print('original:', bicycle)
+print('sorted', sorted(bicycle))
+print('original:', bicycle)
+print('---')
+
+#'reverse' elements in bicycle
+bicycle=['r', 'a', 'k', 'd']
+print(bicycle)
+bicycle.reverse()
+print(bicycle)
+print('---')
+
+#finding out how many elements in bicycle
+bicycle=['r', 'a', 'k', 'd']
+len_variable=len(bicycle)
+print(len_variable)
+print('---')
